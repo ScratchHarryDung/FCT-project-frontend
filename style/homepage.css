@@ -1,0 +1,215 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+/*! header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 15px #00764C;
+    width: 100%;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.head-left{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.head-left a{
+    text-decoration: none;
+}
+
+.head-left div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    color: #00764C;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    height: 30px;
+}
+
+.head-left div:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    box-shadow: 0 0 10px #00764C;
+    border-radius: 30px;
+    height: 40px;
+}
+
+.head-right{
+    display: flex;
+    align-items: center;
+}
+
+.head-right .contact{
+    margin-right: 30px;
+}
+.head-right .contact letter{
+    color:#00764C;
+    font-weight: lighter;
+}
+.head-right .contact number{
+    color:#00764C;
+    font-weight: 900;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.head-right .contact number:hover{
+    color: #000;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+
+.head-right button{
+    margin-right: 30px;
+    height: 60px; width: 100px;
+    font-size: 14px; font-weight: bold;
+    border-radius: 30px;
+    border: 3px solid #00764C;
+    background: #fff;
+    color:#00764C;
+    transition: all 0.3s ease-in-out;
+}
+
+.head-right button:hover{
+    background-color: #00764C;
+    color: white;
+    box-shadow: 0 0 20px #00764C;
+}
+
+
+
+/*! body */
+.container{
+    padding: 30px;
+    margin: 30px;
+}
+
+
+/*? article */
+article img{
+    width: 100%;
+
+}   
+article .about{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "ariel", sans-serif;
+    text-transform: uppercase;
+    margin-top: var(--perc);
+    padding: 0 50px;
+}
+
+article .lorem{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0 50px;
+    width: 50%;
+}
+
+article button{
+    margin: 30px 50px;
+    width: 10%;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid #00764C;
+    background-color: #fff;
+    color:#00764C;
+    text-transform:lowercase;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+article button:hover{
+    background: #00764C;
+    box-shadow: 0 0 20px #7cec89;
+    color: #fff;
+    width: 15%;
+    height: 70px;
+}
+
+
+/*? our mission */
+
+.mission{
+    width: 90%;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission img{
+    width: 50%;
+    margin-right: var(--length);
+}
+.mission div{
+    margin-right: var(--length);
+}
+.mission .border{
+    width: 10px;
+    height: 500px;
+    background: #00764C;
+}
+.mission .our-mission .OM{
+    color: #00764C;
+    font-size: 60px;
+    width: 500px;
+}
+.mission .our-mission .MS-lorem{
+    width: 75%;
+}
+
+
+/*! footer */
+footer{
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 20px #00764C;
+    background: #00764C;
+    color: #fff;
+}
+
+.C-Us{
+    font-size: 60px;
+}
+.detail{
+    font-size: 20px;
+}
+
+.SM{
+    font-size: 40px;;
+}
+.SM-logo{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.SM-logo i{
+    color:#fff;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.SM-logo i:hover{
+    font-size: 40px;
+    border-radius: 100%;
+    box-shadow: 0 0 30px #fff;
+}
